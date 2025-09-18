@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: '0.0.0.0',
-    allowedHosts: "fullstackdemo-0jdr.onrender.com"
+    allowedHosts: true
   },
 })
