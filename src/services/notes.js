@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = '/api/https://fullstack-backend-mpsc.onrender.com/api/notes'
+const baseUrl = 'https://fullstack-backend-mpsc.onrender.com/api/notes'
 
 const getAll = () => {
     const request = axios.get(baseUrl)
