@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host 0.0.0.0",
+    "dev": "vite ",
     "build": "vite build",
-    "start": "vite",
+    "start": "vite --host 0.0.0.0",
     "lint": "eslint .",
     "preview": "vite preview",
     "server": "json-server -p 3001 db.json"
